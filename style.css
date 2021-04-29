@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: #3498db;
+}
+.header-logo img{
+    width: 220px;
+}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a{
+     display: block;
+    color: #fafafa;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 67px;
+    border-right: 1px solid #dddddd;
+    text-decoration: none;
+
+}
+.primary-menu ul li a:hover{
+    background:#2980b9;
+}
+
+/* banner css */
+
+.banner{
+    background-image: url(https://smartslider3.com/wp-content/uploads/2019/01/photo_slideshow.jpg) ;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+.banner h1{
+    background: rgba(0,0,0,.5);
+    display: inline-block;
+    color: #fff;
+    font-size: 54px;
+   border-radius: 5px;
+   padding: 10px 20px;
+}
+.banner h2{
+    background: rgba(52,152,219,.6);
+    color: #fff;
+    max-width: 500px; 
+         margin-top:auto ;
+    margin: auto;
+    font-size: 40px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 25px;
+
+}
+
+.about{
+    background: #ecf0f1;
+}
+.service{
+    background: #f9f9f9;
+   
+}
+.service span{
+    display: block;
+    height: auto;
+    width: 60px;
+    background:#3498db;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 15px 0 15px 0;
+   
+}
+.service p{
+    font-size: 20px; 
+    padding: 5px 0;
+}
+ img{
+     max-width: 100%;
+ }
+ .product-item p{
+     font-size: 18px;
+ }
+ 
+ .product-right ul{
+     list-style: none;
+     padding-left: 0;
+
+ }
+ .product-right ul li{
+     background: #f7f7f7;
+     margin-bottom: 30px;
+     padding: 10px;
+     border-radius: 5px;
+     font-size: 19px;
+ }
+ .fotter{
+     background:#3498db;
+ }
+ .fotter-bottom p{
+     margin-bottom: 0;
+     color: #ddd;
+ }
